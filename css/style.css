@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/12064/pexels-photo-12064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  padding: 15vh 0 10vh;
+}
+
+.box {
+  min-height: 130px;
+  margin: 50px auto;
+}
+
+h1,
+.box {
+  text-shadow: 2px 2px 4px #000;
+}
+
+button,
+a {
+  display: block;
+  margin: 0 auto 30px;
+  width: 355px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+button:active,
+a:active {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+button:focus {
+  outline-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa.fa-lg.fa-twitter {
+  padding: 0 10px;
+  font-size: 22px;
+}
+/*# sourceMappingURL=style.css.map */
