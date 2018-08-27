@@ -17,7 +17,7 @@
 		const quoteAuthor = data.title; 
 
 		if (!quoteAuthor.length) {
-			quoteAuthor = "Unknown author";
+			quoteAuthor = 'Unknown author';
 		}
 
 		const tweetText = `Quote of the day - ${quoteText} Author: ${quoteAuthor}`;
