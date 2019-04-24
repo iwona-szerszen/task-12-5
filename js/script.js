@@ -5,7 +5,7 @@
 
 	function getQuote() {
 		fetch(`${prefix}${quoteUrl}`, {cache: "no-store"})
-			.then (resp => resp.json())
+			.then(resp => resp.json())
 			.then(createTweet);
 	}
 
